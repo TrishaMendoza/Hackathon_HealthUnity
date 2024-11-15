@@ -10,7 +10,6 @@ import os
 # Load API address
 load_dotenv()
 API_KEY = os.getenv('SECRET_API_KEY')
-print(API_KEY)
 
 
 def load_eeg(file_path):  # Step 1: Load EEG File
